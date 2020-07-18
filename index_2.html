@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style_2.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script>
+
+  $(function(){
+
+    $('.menuber').on('click',function(){
+      $('.menu').fadeIn(0);
+    });
+
+     $('.menu h2').on('click',function(){
+      $('.menu').fadeOut(0);
+    });
+
+    });
+
+
+    console.log("西澤光太");
+
+    $(window).scroll(function(){
+      console.log($(this).scrollTop());
+
+
+     if($(this).scrollTop() >= 50){
+      $('.karaoke-title').fadeIn(500);
+    }
+
+     if($(this).scrollTop() >= 100){
+      $('.kara').fadeIn(500);
+    }
+
+     if($(this).scrollTop() >= 1300){
+      $('.artist-title').fadeIn(500);
+    }
+
+     if($(this).scrollTop() >= 1460){
+      $('.favorite-artist').fadeIn(500);
+    }
+
+     if($(this).scrollTop() >= 2800){
+      $('.watching-title').fadeIn(500);
+    }
+
+     if($(this).scrollTop() >= 3000){
+      $('.ytb').fadeIn(500);
+    }
+
+
+
+    });
+
+  </script>
+</head>
+<body>
+  <div id="wrap">
+    <div class="h-auter">
+      <div class="header">
+     <div class="menu">
+        <a href="#"><h2>menu close</h2></a>
+	<a href="file:///Users/nishizawakota/Desktop/final/index.html"><h3>home</h3></a>
+	<a href="file:///Users/nishizawakota/Desktop/final/index_2.html"><h3>hobby</h3></a>
+	<a href="#"><h3>fan club</h3></a>
+	<a href="file:///Users/nishizawakota/Desktop/final/index_3.html"><h3>address</h3></a>
+	<a href="#"><h3>contact</h3></a>
+      </div>
+      <a href="#"><div class="menuber">
+	<div class="m-1"></div>
+	<div class="m-2"></div>
+	<div class="m-3"></div>
+      </div></a>
+      <div class="header-left">
+	<img src="img/kota1.jpg">
+      </div>
+      <div class="header-right">
+	<a href="file:///Users/nishizawakota/Desktop/final/index.html"><li>home</li></a>
+	<a href="#"><li>hobby</li></a>
+	<a href="#"><li>fan club</li></a>
+	<a href="file:///Users/nishizawakota/Desktop/final/index_3.html"><li>address</li></a>
+	<a href="#"><li>contact</li></a>
+      </div>
+      </div><!--header-->
+    </div><!--h-auter-->
+    <div class="main">
+      <div class="maintitle">
+	<h1>My hobby</h1>
+      </div><!--maintitle-->
+      <div class="karaoke">
+	<div class="karaoke-title">
+	  <h2>Karaoke</h2>
+	</div>
+        <div class="kara">
+	<div class="karaokemax">
+	  <div class="karaokemax-img">
+	    <img src="img/max.jpg">
+	  </div>
+	  <div class="karaoke-text">
+	    <h3>最高得点</h3>
+	    <h4><span>97.566</span>点</h4>
+	    <p>Missing/久保田利伸</p>
+	  </div>
+	</div>
+	<div class="karaokemovie">
+          <div class="movie-text">
+	    <h3>YouTube個人チャンネル</h3>
+	  </div>
+	  <div class="friend-movie-main">
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/viluEfTEqKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	  <div class="friend-botan">
+	    <a href="https://www.youtube.com/channel/UC13BPLEYAi4sWr4z0OmeB-A"><span>チャンネルへ</span></a>
+	  </div>
+	</div>
+        </div>
+      </div><!--karaoke-->
+      <div class="artist">
+	<div class="artist-title">
+	  <h2>Artist</h2>
+	</div>	
+	<div class="favorite-artist">
+	  <div class="favorite-img">
+	    <img src="img/rad.jpg">
+	  </div>
+	  <div class="favorite-text">
+	    <h3>RADWIMPS</h3>
+	    <h4>-Favorite Song-</h4>
+	    <p>夢見つきに何想ふ<br>ブレス<br><span>※正直選べません</span></p>
+	  </div>
+	</div>
+	<div class="favorite-artist">
+	  <div class="favorite-img">
+	    <img src="img/repe.jpg">
+	  </div>
+	  <div class="favorite-text">
+	    <h3>レペゼン地球</h3>
+	    <h4>-Favorite Song-</h4>
+	    <p>Life song<br>-0-Tokyo<br>花鳥風月</p>
+	  </div>
+	</div>
+	<div class="favorite-artist">
+	  <div class="favorite-img">
+	    <img src="img/saisai.jpg">
+	  </div>
+	  <div class="favorite-text">
+	    <h3>SILENT SIREN</h3>
+	    <h4>-Favorite Song-</h4>
+	    <p>八月の夜<br>恋い雪<br>What show is it?</span></p>
+	  </div>
+	</div>
+      </div>
+      <div class="watching">
+	<div class="watching-title">
+  	  <h2>Youtuber</h2>
+	</div>
+	<div class="ytb">
+	<div class="favorite-youtuber">
+	  <div class="youtuber-img">
+	    <a href="https://www.youtube.com/channel/UCaminwG9MTO4sLYeC3s6udA"><img src="img/hika.jpg"></a>
+	  </div>
+	  <div class="youtuber-text">
+	    <h3>ヒカル</h3>
+	  </div>
+	</div>
+	<div class="favorite-youtuber">
+	  <div class="youtuber-img">
+	    <a href="https://www.youtube.com/channel/UC3eTZ5Yld6qufD6rtEiERdw"><img src="img/repe.jpg"></a>
+	  </div>
+	  <div class="youtuber-text">
+	    <h3>レペゼン地球</h3>
+	  </div>
+	</div>
+	<div class="favorite-youtuber">
+	  <div class="youtuber-img">
+	    <a href="https://www.youtube.com/user/TokaiOnAir"><img src="img/tokai.jpg"></a>
+	  </div>
+	  <div class="youtuber-text">
+	    <h3>東海オンエア</h3>
+	  </div>
+	</div>
+	<div class="favorite-youtuber">
+	  <div class="youtuber-img">
+	    <a href="https://www.youtube.com/channel/UCMvIgjeVXKAFP0mC1cYpiEA"><img src="img/kys.jpg"></a>
+	  </div>
+	  <div class="youtuber-text">
+	    <h3>KYS動画研究所</h3>
+	  </div>
+	</div>
+	<div class="friend-title">
+	  <h3>Friends<h3>
+	</div>
+	<div class="friend-movie">
+	  <div class="friend-movie-text">
+	    <h4>トイズチャンネル</h4>
+	  </div>
+	  <div class="friend-movie-main">
+	    <iframe width="560" height="315" src="https://www.youtube.com/embed/RjmLquL6OWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	  <div class="friend-botan">
+	    <a href="https://bit.ly/38Ou1f9"><span>チャンネルへ</span></a>
+	  </div>
+	</div>
+	</div>
+      </div><!--watching-->
+  <div class="footer">
+        <a href="http://red-company005.sakura.ne.jp/"><span>株式会社Red HomePage</span></a>
+      </div><!--footer-->
+    </div><!--main-->
+  </div><!--wrap-->
+</body>
+</html>
+

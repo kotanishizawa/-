@@ -1,0 +1,929 @@
+#wrap{
+	background-image:url(../img/wrap.jpg);
+	width:100%;
+}
+
+.h-auter{
+	width:100%;
+	position:fixed;
+	background-color: rgba(0,0,0,0.6);
+    	z-index: 10;
+}
+
+.header{
+	width:70%;
+	margin:auto;
+	display:table;
+	padding-top:15px;
+	padding-bottom:15px;
+	position:relative;
+}
+
+.menu{
+	position:absolute;
+	top:130px;
+	left:0px;
+	background-color:#1a1a1a;
+	width:100%;
+	text-align:center;
+	display:none;
+}
+
+.menu h2{
+	font-size:30px;
+	font-family:serif;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#800000;
+	border:1px solid #333333;
+}
+
+.menu h2:hover{
+	background-color:#000;
+}
+
+.menu h3{
+	font-size:40px;
+	font-family:serif;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#e6e6e6;
+	border:1px solid #333333;
+}
+
+.menu h3:hover{
+	background-color:#808080;
+}
+
+.menuber{
+	position:absolute;
+	top:33%;
+	left:-10%;
+	z-index:9;
+	color:#e6e6e6;
+}
+
+.m-1{
+	width: 50px;
+    	border-top: 5px solid #e6e6e6;
+    	margin-bottom: 15px;
+}
+.m-2{
+	width: 30px;
+    	border-top: 5px solid #e6e6e6;
+    	margin-bottom: 15px;
+}
+.m-3{
+	width: 45px;
+    	border-top: 5px solid #e6e6e6;
+}
+
+.header-left{
+	width:15%;
+	display:table-cell;
+	vertical-align:top;
+}
+
+.header-left img{
+	width:100px;
+	height:100px;
+	text-align: center;
+}
+
+.header-right{
+	width:75%;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.header-right li{
+	list-style-type:none;
+	display:inline-block;
+	border:1px solid #000;
+	background-color:#cdcdcd;
+	padding: 27px;
+        font-size: 18px;
+        font-family: serif;
+}
+
+.header-right li:hover{
+	background-color:#808080;
+}
+
+.main{
+	width:70%;
+	margin:auto;
+	padding-top: 290px;
+}
+
+.kotatitle{
+	text-align:center;
+	color:#e6e6e6;
+	line-height:100px;
+	font-family:serif;
+	font-size: 60px;
+        padding-bottom: 210px;
+}
+
+.kotadata{
+	padding-bottom: 190px;	
+	background-color: rgba(0,0,0,0.7);
+	height:1160px;
+}
+
+.kotadata-title{
+	text-align:center;
+	color:#e6e6e6;	
+	font-family:serif;
+	padding-bottom:100px;
+	font-size:60px;
+	padding-top:70px;
+	display:none;
+}
+
+.kotadata-content{
+	width:100%;
+	display:table;
+	padding:30px;
+}
+
+.kdc{
+	display:none;
+}
+
+.kotadata-img{
+	display:table-cell;
+	width:45%;
+	background-image:url(../img/kota2.jpg);
+	background-size:cover;
+	background-position:center;
+	height:600px;	
+}
+
+.kotadata-text{
+	width:50%;
+	display:table-cell;
+	vertical-align:middle;
+	
+}
+
+.kotadata-text1{	
+	color:#e6e6e6;
+	font-family:serif;
+	text-align:center;
+	padding-bottom:60px;
+	padding-top:60px;
+}
+
+.kotadata-text1 h3{
+	font-size:40px;
+}
+
+.kotadata-text2{
+	color:#e6e6e6;
+	font-family:serif;
+	text-align:center;
+	padding-bottom:50px;
+}
+
+.kotadata-text2 h3{
+	font-size:30px;
+	padding-bottom:30px;
+}
+
+.kotadata-text2 p{
+	font-size:20px;
+}
+
+.kotaschool{
+	position:relative;
+	padding-top:150px;
+	padding-bottom: 100px;
+	height: 1730px;
+}
+
+.kotaschool-title{
+	position:absolute;
+	top:-2%;
+	left:32%;
+	z-index:2;
+	color:#e6e6e6;
+	font-family:serif;
+	font-size:60px;
+	display:none;
+}
+
+.kotaschool-content{
+	display:none;
+}
+
+.school1{
+	position:relative;
+	padding-bottom:70px;
+	height:370px;
+}
+
+.school1-img{
+	position:absolute;
+	z-index:2;
+	left:5%;
+}
+
+.school1-img img{
+	width:330px;
+	height:300px;
+}
+
+.school1-text{
+	position:absolute;
+	z-index:2;
+	left:55%;
+	top:20%;
+	color:#e6e6e6;
+	font-family:serif;
+	text-align:center;
+	background-color:rgba(0,0,0,0.7);
+	padding:30px;
+}
+
+.school1-text h3{
+	font-size:30px;
+	padding-bottom:30px;
+}
+
+.school1-text p{
+	font-size:20px;
+}
+.school2{
+	position:relative;
+	padding-bottom:70px;
+	height:370px;
+}
+
+.school2-img{
+	position:absolute;
+	z-index:2;
+	left:54%;
+}
+
+.school2-img img{
+	width:330px;
+	height:300px;
+}
+
+.school2-text{
+	position:absolute;
+	z-index:2;
+	left:6%;
+	top:20%;
+	color:#e6e6e6;
+	font-family:serif;
+	text-align:center;
+	background-color:rgba(0,0,0,0.7);
+	padding:30px;
+}
+
+.school2-text h3{
+	font-size:30px;
+	padding-bottom:30px;
+}
+
+.school2-text p{
+	font-size:20px;
+}
+
+
+.kotacareer{
+	position:relative;
+	padding-bottom:30px;
+	padding-top:150px;	
+	background-color: rgba(0,0,0,0.7);
+	height:990px;
+}
+
+.kotacareer-title{
+	position:absolute;
+	top:-3%;
+	left:39%;
+	z-index:2;
+	color:#e6e6e6;
+	font-family:serif;
+	font-size:60px;
+	display:none;
+}
+
+.kotacareer-content{
+	display:none;
+}
+
+.kotacareer-text{
+	text-align:center;
+	color:#e6e6e6;
+	font-family:serif;
+	padding-bottom:100px;
+}
+
+.kotacareer-text h3{
+	font-size:40px;
+	padding-bottom:20px;
+}
+
+.kotacareer-text h4{
+	font-size:20px;
+	padding-bottom:20px;
+	line-height: 30px;
+	
+}
+
+.kotacareer-text p{
+	font-size:20px;
+	padding-bottom:20px;
+}
+
+.kotacareer-text b{
+	color:#c0c0c0;
+}
+
+.kotactr{
+	position:relative;
+	height:600px;
+}
+
+.kotactr-title{
+    text-align: center;
+    color: #e6e6e6;
+    font-family: serif;
+    padding-bottom: 100px;
+    font-size: 60px;
+    padding-top: 150px;
+    display:none;
+}
+
+.ctr-insta{
+	position:absolute;
+	top:45%;
+	left:14%;
+	z-index:2;
+	text-align:center;	
+	display:none;
+}
+
+.ctr-insta h3{
+	color:#e6e6e6;
+	font-family:serif;
+	font-size:30px;
+	text-align:center;
+}
+
+.fab{
+	font-size:150px;
+	color:#e6e6e6;
+}
+
+.ctr-youtube h3{
+	color:#e6e6e6;
+	font-family:serif;
+	font-size:30px;
+	text-align:center;
+}
+
+.ctr-youtube{
+	position:absolute;
+	top:45%;
+	left:40%;
+	z-index:2;
+	text-align:center;	
+	display:none;
+}
+
+.ctr-blog h3{
+	color:#e6e6e6;
+	font-family:serif;
+	font-size:30px;
+	text-align:center;
+}
+
+.ctr-blog{
+	position:absolute;
+	top:45%;
+	left:70%;
+	z-index:2;
+	text-align:center;	
+	display:none;
+}
+
+.fab:hover{
+	color:#808080;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: serif;
+    padding-bottom: 70px;
+}
+
+.footer span:hover{
+	border-bottom:1px solid #fff;
+}
+
+.footer a{
+	color:#fff;
+}
+
+
+@media(max-width:1225px) {
+
+.header-right{
+	display:none;
+}
+
+.header-left{
+	width:unset;
+}
+
+}
+
+
+@media(max-width:965px) {
+.header{
+	width:100%;
+}
+
+.header-left {
+    width: unset;
+    display: none;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+}
+
+.menuber {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    z-index: 9;
+    color: #e6e6e6;
+}
+
+.main{
+	width:100%;
+}
+
+.kotaschool-title {
+    position: absolute;
+    top: -2%;
+    left: 36%;
+    z-index: 2;
+    color: #e6e6e6;
+    font-family: serif;
+    font-size: 60px;
+}
+
+}
+
+@media(max-width:868px) {
+.school1-img {
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+}
+
+.school1-text {
+    position: absolute;
+    z-index: 3;
+    left: 26%;
+    top: 20%;
+    color: #e6e6e6;
+    font-family: serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px;
+    width:400px;
+}
+
+.school2-img {
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+}
+
+.school2-text {
+    position: absolute;
+    z-index: 3;
+    left: 26%;
+    top: 20%;
+    color: #e6e6e6;
+    font-family: serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px;
+    width: 400px;
+}
+
+.ctr-insta {
+    position: absolute;
+    top: 45%;
+    left: 41%;
+    z-index: 2;
+    text-align: center;
+}
+
+.fab {
+    font-size: 60px;
+    color: #e6e6e6;
+}
+
+.ctr-youtube {
+    position: absolute;
+    top: 63%;
+    left: 42%;
+    z-index: 2;
+    text-align: center;
+}
+
+.ctr-blog {
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    z-index: 2;
+    text-align: center;
+}
+
+.kotaschool-title {
+    position: absolute;
+    top: -2%;
+    left: 33%;
+    z-index: 2;
+    color: #e6e6e6;
+    font-family: serif;
+    font-size: 60px;
+}
+
+}
+
+@media(max-width:545px) {
+
+.kotatitle {
+    text-align: center;
+    color: #e6e6e6;
+    line-height: 54px;
+    font-family: serif;
+    font-size: 35px;
+    padding-bottom: 150px;
+}
+
+.main{
+	padding-top: 260px;
+}
+
+.kotadata-title {
+    text-align: center;
+    color: #e6e6e6;
+    font-family: serif;
+    padding-bottom: 45px;
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+.kotadata-img {
+    display: table;
+    width: 100%;
+    background-image: url(../img/kota2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.kotadata-text {
+    width: 100%;
+    display: table;
+    vertical-align: middle;
+}
+
+.kotadata-text1 {
+    color: #e6e6e6;
+    font-family: serif;
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+.kotadata-text2 {
+    color: #e6e6e6;
+    font-family: serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.kotadata {
+    padding-bottom: 100px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.kotaschool-title {
+    position: absolute;
+    top: -1.5%;
+    left: 31%;
+    z-index: 2;
+    color: #e6e6e6;
+    font-family: serif;
+    font-size: 40px;
+}
+
+.school1-img img {
+    width: 250px;
+    height: 250px;
+}
+
+.school1-img {
+    position: absolute;
+    z-index: 2;
+    left: 25%;
+}
+
+.school1-text h3 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.school1-text p {
+    font-size: 15px;
+}
+
+.school1-text {
+    position: absolute;
+    z-index: 3;
+    left: 25%;
+    top: 23%;
+    color: #e6e6e6;
+    font-family: serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    width: 250px;
+}
+
+.school1 {
+    position: relative;
+    padding-bottom: unset;
+    height: 350px;
+}
+
+.school2-img img {
+    width: 250px;
+    height: 250px;
+}
+
+.school2-img {
+    position: absolute;
+    z-index: 2;
+    left: 25%;
+}
+
+.school2 {
+    position: relative;
+    padding-bottom: unset;
+    height: 350px;
+}
+
+.school2-text p {
+    font-size: 15px;
+}
+
+.school2-text h3 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.school2-text {
+    position: absolute;
+    z-index: 3;
+    left: 25%;
+    top: 24%;
+    color: #e6e6e6;
+    font-family: serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    width: 250px;
+}
+
+.kotaschool {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 75px;
+	height:unset;
+}
+
+.kotacareer-title {
+    position: absolute;
+    top: -3%;
+    left: 37%;
+    z-index: 2;
+    color: #e6e6e6;
+    font-family: serif;
+    font-size: 40px;
+}
+
+.kotacareer-text {
+    text-align: center;
+    color: #e6e6e6;
+    font-family: serif;
+    padding-bottom: 40px;
+}
+
+.kotacareer-text p {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.kotacareer-text h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.kotacareer-text h4 {
+    font-size: 17px;
+    padding-bottom: unset;
+    line-height: 25px;
+}
+
+.kotactr-title {
+    text-align: center;
+    color: #e6e6e6;
+    font-family: serif;
+    padding-bottom: 100px;
+    font-size: 60px;
+    padding-top: 150px;
+    display: none;
+}
+
+.kotactr {
+    position: relative;
+    height: 100px;
+}
+
+.ctr-insta {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    z-index: 2;
+    text-align: center;
+}
+
+.ctr-insta h3 {
+    color: #e6e6e6;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+    display: none;
+}
+
+.ctr-youtube h3 {
+    color: #e6e6e6;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+    display: none;
+}
+
+.ctr-blog h3 {
+    color: #e6e6e6;
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+    display: none;
+}
+
+.ctr-youtube {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    z-index: 2;
+    text-align: center;
+}
+
+.ctr-blog {
+    position: absolute;
+    top: 20%;
+    left: 63%;
+    z-index: 2;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-family: serif;
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+
+}
+
+@media(max-width:375px) {
+
+.school1-img img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.school1 {
+    position: relative;
+    padding-bottom: unset;
+    height: 290px;
+}
+
+.school1-text {
+    position: absolute;
+    z-index: 3;
+    left: 0%;
+    top: 20%;
+    color: #e6e6e6;
+    font-family: serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    width: 100%;
+}
+
+.school1-img {
+    position: absolute;
+    z-index: 2;
+    left: 0%;
+    width: 100%;
+}
+
+.school2 {
+    position: relative;
+    padding-bottom: unset;
+    height: 290px;
+}
+
+.school2-text {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 21%;
+    color: #e6e6e6;
+    font-family: serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    width: 100%;
+}
+
+.school2-img {
+    position: absolute;
+    z-index: 2;
+    left: 0%;
+    width: 100%;
+}
+
+.school2-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.kotaschool-title {
+    position: absolute;
+    top: -1.5%;
+    left: 23%;
+    z-index: 2;
+    color: #e6e6e6;
+    font-family: serif;
+    font-size: 40px;
+}
+
+.kotaschool {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.kotacareer {
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 101px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.kotacareer-title {
+    position: absolute;
+    top: -3%;
+    left: 31%;
+    z-index: 2;
+    color: #e6e6e6;
+    font-family: serif;
+    font-size: 40px;
+}
+
+
+}
